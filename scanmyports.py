@@ -4,8 +4,6 @@ print ""
 IPHOST = raw_input("Write IP or name of host: ")
 PORT_S = raw_input("Start with port: ")
 PORT_F = raw_input("Finish with port: ")
-closed = ""
-opened = ""
 
 print "RESUME: "
 for port_number in range(int(PORT_S),int(PORT_F)):
